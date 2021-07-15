@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proj1-login</title>
+    <style>
+        body{
+            background-image: url("Images-project1/bgi2.jpg");
+            background-size: cover;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 18px;
+            line-height: 1.5em;
+        }
+        .loginform{
+            display: block;
+            width: 900px;
+            margin: 175px auto;
+            padding: 34px 44px;
+            background-color: #f3eae6;
+            /* border: 3px solid red; */
+            border-radius: 20px;
+        }
+        .heading{
+            text-align: center;
+        }
+        #Name{
+            line-height: 2em;
+            padding: 0px 196px;
+        }
+        #Email{
+            /* line-height: 1.5em; */
+            padding: 4px 196px;
+        }
+        #Number{
+            padding: 4px 196px;
+        }
+        .btn1{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 18px;
+            width: 510px;
+            padding: 0px 196px;
+            margin: 10px 196px;
+            background-color: rgb(240, 212, 202);
+            border: 2px solid rgb(207, 103, 64);
+            border-radius: 20px;
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="loginform">
+        <h3 class="heading">Log in to be a member</h3>
+        <form action="">
+            <div id="Name">
+                First name <input type="text" name="First name">
+                Last name <input type="text" name="Last name">
+            </div>
+            <div id="Email">
+                Email <input type="email" name="Email">
+            </div>
+            <div id="Number">
+                Contact number <input type="number" name="Number">
+            </div>
+            <div>
+                <input type="submit" value="Submit" class="btn1">
+            </div>
+            <div>
+                <input type="reset" value="Reset" class="btn1">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

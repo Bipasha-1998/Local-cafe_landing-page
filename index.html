@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tina's Coffee Palace</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-image: url('Images-project1/bgi7.jpg');
+            background-size: cover;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .left{
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            top: 2px;
+            left: 30px;
+            padding: 10px 34px;
+        }
+        .left img{
+            width: 90px;
+            filter: invert(100%);
+        }
+        .left div{
+            text-align: center;    
+            line-height: 0.5em;
+            font-size: 15px
+        }
+        .mid{
+            display: block;
+            width: 61%;
+            margin: 10px auto;
+            padding: 20px 25px;
+            /* border: 2px solid green; */
+            border-radius: 10px;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 18px;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 30px 20px;
+            font-weight: bold;
+        }
+        .navbar li a:hover{
+            color: rgb(238, 174, 174);
+        }
+         .right{
+            display: inline-block;
+            width: 125px;
+            position: absolute;
+            right: 30px;
+            top: 10px;
+            margin: 7px auto;
+            padding: 20px 40px;
+            /* border: 2px solid yellow; */
+        }
+        .btn{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: #484848;
+            font-size: 18px;
+            width: 162px;
+            border: black;
+            border-radius: 20px;
+            padding: 6px 0px;
+            margin: 0px;
+            cursor: pointer;
+        } 
+        .btn a{
+            text-decoration: none;
+            color: white;
+        }
+        .btn:hover{
+            background-color: #3a3939;
+        }
+        .Intropage{
+            /* border: 2px solid red; */
+            display: block;
+            width: 50%;
+            margin: 100px auto;
+            font-family: 'Pacifico', cursive;
+            text-align: center;
+            font-size: 70px;
+        }
+        .btn2{
+            display: block;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: #ec8139;
+            font-size: 18px;
+            width: 290px;
+            border: black;
+            border-radius: 20px;
+            padding: 6px 128px;
+            margin: 10px auto;
+            cursor: pointer;
+        }
+        .btn2:hover{
+            background-color: #d35c0c;
+        }
+        .btn2 a{
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+        #Explore{
+            text-align: center;
+        }
+        #Seatbook{
+            text-align: center;
+        }
+       </style>
+</head>
+<body>
+    <header>
+        <div class="left">
+            <img src="Images-project1/Logo1.jpg" alt="">
+            <div>Tina's Coffee Palace</div>
+
+        </div>
+
+        <div class="mid">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="right">
+            <button class="btn"><a href="Project1_login.html">Log In</a></button>
+        </div>
+    </header>
+    <div class="Intropage">
+        Welcome to Tina's Coffee Palace
+    </div>
+    <div id="Explore" class="btn2"><a href="#">Explore</a></div>
+    <div id="Seatbook" class="btn2"><a href="#">Book your seats</a></div>
+</body>
+</html>
